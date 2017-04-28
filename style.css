@@ -338,12 +338,30 @@ ins {
 big {
 	font-size: 125%;
 }
-.hero-content-riz h1 {
+.a-frame > h1 {
 	text-align: center;
 	font-size: 3rem;
 	font-weight: 300;
 	color: white;
-	padding-top:2em;	
+	padding:2em;
+	background-color: rgba(20, 30, 40, .8)
+
+}
+.services-panel-riz {
+	background-color: green;
+	min-height: 3em;
+}
+.services-panel-riz--inner {
+	width:90%;
+}
+.service-items {
+	list-style: none;
+	display: flex;
+}
+.service-items > li {
+	width: 4em;
+	margin: 1em;
+	color: white;
 }
 /*--------------------------------------------------------------
 # Elements
@@ -909,7 +927,7 @@ object {
 }
 /** My Own Styles **/
 .hero-content-riz {
-	background: url(images/StockSnap_X0R5VP6BSB.jpg) no-repeat;
+	background: url(images/stock-backdrop-a-frame.jpg) no-repeat;
 	background-size: cover;
 	min-height: 550px;
 }
